@@ -79,6 +79,8 @@ typedef CF_ENUM(NSInteger, ZBJCalendarViewHeadStyle) {
  */
 @property (nonatomic, assign) ZBJCalendarViewHeadStyle headStyle;
 
+@property (nonatomic, strong) UICollectionView* collectionView;
+
 ///-------------------------------
 /// @name layout properties
 ///-------------------------------
